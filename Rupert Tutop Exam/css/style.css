@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+.navbar-header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 7px 0;
+}
+
+.navbar-brand {
+	font-size: 16px;
+    font-weight: 700;	
+}
+
+.navbar-inverse {
+	background-image: none;
+	background-color: #3c3c3c;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-default {
+	background-image: none;
+	background-color: #fff;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .fas {
+	color: #fff;
+}
+
+.navbar-inverse .input-group-addon .fas {
+	color: #000;
+}
+
+.navbar-inverse .navbar-nav.navbar-right>li>a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav.navbar-right>li:nth-child(1)>a {
+	font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-inverse .navbar-nav.navbar-right>li:nth-child(1)>a .fas {
+	margin: 0 5px;
+}
+
+.navbar-inverse .navbar-nav.navbar-right>li:nth-child(1)>a .fa-circle {
+    font-size: 30px;
+}
+
+.navbar-inverse .navbar-nav.navbar-right>li>.btn {
+	background: transparent;
+    margin: 5px 0;
+    border: 2px solid #ec7d4a;
+    color: #ec7d4a;
+}
+
+.navbar-inverse .navbar-nav.navbar-right>li>.btn .fas {
+    color: #ec7d4a;	
+}
+
+.navbar-inverse .navbar-nav.navbar-right{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-wrapper {
+	background: #f5f5f5;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+.header-content {
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-wrapper .page-menu {
+	margin-left: auto;
+}
+
+.main-wrapper .page-details h2{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.main-wrapper .page-details h2 .fas {
+	margin-right: 10px;
+}
+
+.main-wrapper .page-details p {
+    text-indent: 35px;
+    color: #848484;
+}
+
+.page-menu ul a {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    color: #777;
+    font-weight: bold;
+}
+
+.page-menu ul a .fas {
+	text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #e07d41;
+}
+
+.label-section {
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+.add-event, .add-campaign {
+	text-align: right;
+}
+
+.add-campaign {
+	color: #e07d41;
+	font-weight: bold;
+}
+
+.events.ongoing {
+    padding: 20px 25px;
+    border-radius: 5px;
+    background: #d2435c;
+    color: #fff;
+}
+
+.events.active {
+    padding: 20px 25px;
+    border-radius: 5px;
+    background: #347970d1;
+    color: #fff;
+}
+
+.campaigns {
+	padding: 20px 25px;
+    border-radius: 5px;
+    background: #4c4232d4;
+    color: #fff;
+}
+
+.add-event {
+	color: #347970d1;
+	font-weight: bold;
+}
+
+.events-menu {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.events-menu p {
+	margin-bottom: 0;
+    font-size: 18px;
+}
+
+.events-menu .btn-group {
+	margin-left: auto;
+}
+
+.events-menu .btn-default {
+	background-color: #fff;
+	background-image: none;
+}
+
+.navbar-right {
+	margin-right: 0;
+}
+
+.campaigns .campaign-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.campaigns .campaign-menu .navbar-right {
+	margin-left: auto;
+}
+
+.campaigns .campaign-menu .navbar-right a {
+    padding: 0;
+    color: #fff;
+    background: transparent;
+}
+
+.campaigns .campaign-menu p {
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+.campaigns p {
+	font-size: 16px;
+}
+
+.campaigns .btn-default {
+    background: transparent;
+    color: #fff;
+    text-shadow: none;
+    border-color: #fff;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+.campaigns .fas {
+	margin-right: 10px;
+}
+
+.finance-details .col-md-9 {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.finance-details .col-md-3 {
+	padding-left: 0;
+	padding-right: 0;
+}
+ 
+.finance-details .header-tag {
+	display: flex;
+	align-items: center;
+}
+
+.finance-details .header-tag  .add-campaign {
+	margin-left: auto;
+}
+
+.finance-details .col-md-3 .tags {
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #fff;
+    border-top: 1px solid #000;
+    padding: 20px;
+    height: 100px;
+}
+
+.badge {
+    padding: 5px 9px;
+    background-color: #e67648;
+    text-transform: uppercase;
+}
